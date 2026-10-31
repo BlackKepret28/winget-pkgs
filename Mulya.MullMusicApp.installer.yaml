@@ -1,0 +1,16 @@
+PackageIdentifier: Mulya.MullMusicApp
+PackageVersion: 1.4.1
+InstallerType: inno
+Scope: user
+InstallerSwitches:
+  Silent: /VERYSILENT /SUPPRESSMSGBOXES /NORESTART
+  SilentWithProgress: /SILENT /SUPPRESSMSGBOXES /NORESTART
+UpgradeBehavior: install
+ProductCode: '{8F3C2A51-6B7E-4D2A-9C1E-5A4B3D2E1F07}_is1'
+ReleaseDate: 2026-10-31
+Installers:
+- Architecture: x64
+  InstallerUrl: https://github.com/BlackKepret28/mull-downloader-releases/releases/download/v1.4.1/Mull-Music-App-1.4.1-setup.exe
+  InstallerSha256: 4481786C7E67319FFC1B860825F8DB3DCF26584FFD809DC541508E84406FB9C7
+ManifestType: installer
+ManifestVersion: 1.6.0
